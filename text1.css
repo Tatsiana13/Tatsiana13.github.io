@@ -1,0 +1,28 @@
+body {
+    background: #ffffff url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    text-shadow: rgb(255, 255, 255) 3px 3px 16px;
+    background-size: 1540px;
+    background-position: center;
+    margin: 10%;
+    padding: 0%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+h2 {
+    background-color: none;
+    color: rgb(2, 41, 56);
+    font-size: 40px;
+    text-align: center;
+}

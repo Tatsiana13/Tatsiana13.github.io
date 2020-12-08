@@ -1,0 +1,22 @@
+body {
+    background: #ffffff;
+    color:#264653;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color: rgb(21, 23, 24);
+}
+
+a:visited {
+    color: #264653;
+}
+
+a:hover {
+    color: rgb(1, 54, 54);
+}
+
+a:active {
+    color: lightgoldenrodyellow;
+}

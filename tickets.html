@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="text1.css">
+    <style type="text/css">
+        input.o {
+            width: 300px;
+            height: 60px;
+            text-align: center;
+            font-size: 18pt;
+            font-variant: small-caps;
+            color: #264653;
+            border-color: #264653;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 80%;
+            height: 40%;
+            border-width: 16px;
+            border-style: groove;
+            border-color: rgb(1, 1, 27);
+            margin-left: 10%;
+        }
+    </style>
+</head>
+
+<body class="b">
+    <h1>Travel Agent</h1>
+    <h2>Book trains, buses, ferries and flights almost anywhere in the world.</h2>
+        <br>SEARCH FOR CHEAP AIRLINE TICKETS
+    <p style="font-weight: bold;">The best way to buy cheap flights</p>
+    Make choice:
+    <br><input type="radio" class="radio">round-trip
+    <br><input type="radio" class="radio">one way
+    <br><input type="radio" class="radio">multiple destinations
+    <br><br>
+
+    <form>
+        <input class="o" type="text" onfocus="this.value='Enter a starting location'" value="From">
+        <input class="o" type="text" onfocus="this.value='Where to'" value="Where">
+        <input class="o" type="submit" value="Search" formaction="script.php" formenctype="multipart/form-data"
+            formmethod="post">
+    </form>
+    <br><br>
+    <h2>Where do we sell tickets?</h2>
+    <p>Travel Agent sells tickets for trains, buses, ferries and flights in 15 different countries around the world. Some of
+        these include the UK, France, Italy, Spain, Germany, The United States, Canada and many more.</p>
+
+    <img src="map.jpg" alt="map">
+</body>
+
+</html>
